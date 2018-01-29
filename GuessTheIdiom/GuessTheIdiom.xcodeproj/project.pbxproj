@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113E5695201AF54000D0CECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5694201AF54000D0CECD /* AppDelegate.m */; };
+		113E5698201AF54000D0CECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5697201AF54000D0CECD /* ViewController.m */; };
+		113E569B201AF54000D0CECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113E5699201AF54000D0CECD /* Main.storyboard */; };
+		113E569D201AF54000D0CECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113E569C201AF54000D0CECD /* Assets.xcassets */; };
+		113E56A0201AF54000D0CECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113E569E201AF54000D0CECD /* LaunchScreen.storyboard */; };
+		113E56A3201AF54000D0CECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E56A2201AF54000D0CECD /* main.m */; };
+		113E56AD201AF54000D0CECD /* GuessTheIdiomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E56AC201AF54000D0CECD /* GuessTheIdiomTests.m */; };
+		113E56B8201AF54000D0CECD /* GuessTheIdiomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E56B7201AF54000D0CECD /* GuessTheIdiomUITests.m */; };
+		113E56CD201AF90300D0CECD /* 金币.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 113E56CC201AF90300D0CECD /* 金币.jpeg */; };
+		113E56D4201B057E00D0CECD /* UpOrDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E56D3201B057E00D0CECD /* UpOrDownButton.m */; };
+		113E5702201B0FC200D0CECD /* GuessTheIdiomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5701201B0FC200D0CECD /* GuessTheIdiomModel.m */; };
+		113E5718201B112000D0CECD /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5704201B112000D0CECD /* 0.jpg */; };
+		113E5719201B112000D0CECD /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5705201B112000D0CECD /* 1.jpg */; };
+		113E571A201B112000D0CECD /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5706201B112000D0CECD /* 10.jpg */; };
+		113E571B201B112000D0CECD /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5707201B112000D0CECD /* 11.jpg */; };
+		113E571C201B112000D0CECD /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5708201B112000D0CECD /* 12.jpg */; };
+		113E571D201B112000D0CECD /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5709201B112000D0CECD /* 13.jpg */; };
+		113E571E201B112000D0CECD /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E570A201B112000D0CECD /* 14.jpg */; };
+		113E571F201B112000D0CECD /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E570B201B112000D0CECD /* 15.jpg */; };
+		113E5720201B112000D0CECD /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E570C201B112000D0CECD /* 16.jpg */; };
+		113E5721201B112000D0CECD /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E570D201B112000D0CECD /* 17.jpg */; };
+		113E5722201B112000D0CECD /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E570E201B112000D0CECD /* 18.jpg */; };
+		113E5723201B112000D0CECD /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E570F201B112000D0CECD /* 19.jpg */; };
+		113E5724201B112000D0CECD /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5710201B112000D0CECD /* 2.jpg */; };
+		113E5725201B112000D0CECD /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5711201B112000D0CECD /* 3.jpg */; };
+		113E5726201B112000D0CECD /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5712201B112000D0CECD /* 4.jpg */; };
+		113E5727201B112000D0CECD /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5713201B112000D0CECD /* 5.jpg */; };
+		113E5728201B112000D0CECD /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5714201B112000D0CECD /* 6.jpg */; };
+		113E5729201B112000D0CECD /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5715201B112000D0CECD /* 7.jpg */; };
+		113E572A201B112000D0CECD /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5716201B112000D0CECD /* 8.jpg */; };
+		113E572B201B112000D0CECD /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E5717201B112000D0CECD /* 9.jpg */; };
+		11CE0C59201C1FB10071C268 /* 背景颜色.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C58201C1FB10071C268 /* 背景颜色.jpeg */; };
+		11CE0C5D201C20F70071C268 /* 大大图片.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C5C201C20F70071C268 /* 大大图片.jpeg */; };
+		11CE0C5F201C22FD0071C268 /* 占位符1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C5E201C22FD0071C268 /* 占位符1.jpeg */; };
+		11CE0C65201C242B0071C268 /* 占位符.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C64201C242B0071C268 /* 占位符.jpeg */; };
+		11CE0C67201C261A0071C268 /* GuessTheIdiomModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C66201C261A0071C268 /* GuessTheIdiomModel.plist */; };
+		11CE0C6E201C35BC0071C268 /* 网开一面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C68201C35BB0071C268 /* 网开一面.jpg */; };
+		11CE0C6F201C35BC0071C268 /* 滴水穿石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C69201C35BC0071C268 /* 滴水穿石.jpg */; };
+		11CE0C70201C35BC0071C268 /* 面面俱到.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C6A201C35BC0071C268 /* 面面俱到.jpg */; };
+		11CE0C71201C35BC0071C268 /* 扬眉吐气.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C6B201C35BC0071C268 /* 扬眉吐气.jpg */; };
+		11CE0C72201C35BC0071C268 /* 官官相护.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C6C201C35BC0071C268 /* 官官相护.jpg */; };
+		11CE0C73201C35BC0071C268 /* 两手空空.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C6D201C35BC0071C268 /* 两手空空.jpg */; };
+		11CE0C82201C35CD0071C268 /* 威风八面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C74201C35CB0071C268 /* 威风八面.jpg */; };
+		11CE0C83201C35CD0071C268 /* 积少成多.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C75201C35CB0071C268 /* 积少成多.jpg */; };
+		11CE0C84201C35CD0071C268 /* 死不瞑目.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C76201C35CB0071C268 /* 死不瞑目.jpg */; };
+		11CE0C85201C35CD0071C268 /* 旁门左道.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C77201C35CC0071C268 /* 旁门左道.jpg */; };
+		11CE0C86201C35CD0071C268 /* 捉襟见肘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C78201C35CC0071C268 /* 捉襟见肘.jpg */; };
+		11CE0C87201C35CD0071C268 /* 口是心非.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C79201C35CC0071C268 /* 口是心非.jpg */; };
+		11CE0C88201C35CD0071C268 /* 无与伦比.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C7A201C35CC0071C268 /* 无与伦比.jpg */; };
+		11CE0C89201C35CD0071C268 /* 如虎添翼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C7B201C35CC0071C268 /* 如虎添翼.jpg */; };
+		11CE0C8A201C35CD0071C268 /* 势如破竹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C7C201C35CC0071C268 /* 势如破竹.jpg */; };
+		11CE0C8B201C35CD0071C268 /* 仗势欺人.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C7D201C35CC0071C268 /* 仗势欺人.jpg */; };
+		11CE0C8C201C35CD0071C268 /* 事半功倍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C7E201C35CC0071C268 /* 事半功倍.jpg */; };
+		11CE0C8D201C35CD0071C268 /* 羊入虎口.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C7F201C35CD0071C268 /* 羊入虎口.jpg */; };
+		11CE0C8E201C35CD0071C268 /* 瓜熟蒂落.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C80201C35CD0071C268 /* 瓜熟蒂落.jpg */; };
+		11CE0C8F201C35CD0071C268 /* 同床异梦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C81201C35CD0071C268 /* 同床异梦.jpg */; };
+		11CE0C93201C7DA70071C268 /* payMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE0C91201C7DA70071C268 /* payMoneyViewController.m */; };
+		11CE0C94201C7DA70071C268 /* payMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C92201C7DA70071C268 /* payMoneyViewController.xib */; };
+		11CE0C98201C7E4B0071C268 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE0C96201C7E4B0071C268 /* CollectionViewCell.m */; };
+		11CE0C99201C7E4B0071C268 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0C97201C7E4B0071C268 /* CollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		113E56A9201AF54000D0CECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113E5688201AF54000D0CECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113E568F201AF54000D0CECD;
+			remoteInfo = GuessTheIdiom;
+		};
+		113E56B4201AF54000D0CECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113E5688201AF54000D0CECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113E568F201AF54000D0CECD;
+			remoteInfo = GuessTheIdiom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113E5690201AF54000D0CECD /* GuessTheIdiom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheIdiom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113E5693201AF54000D0CECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		113E5694201AF54000D0CECD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		113E5696201AF54000D0CECD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		113E5697201AF54000D0CECD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		113E569A201AF54000D0CECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		113E569C201AF54000D0CECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		113E569F201AF54000D0CECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		113E56A1201AF54000D0CECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113E56A2201AF54000D0CECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		113E56A8201AF54000D0CECD /* GuessTheIdiomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheIdiomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		113E56AC201AF54000D0CECD /* GuessTheIdiomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessTheIdiomTests.m; sourceTree = "<group>"; };
+		113E56AE201AF54000D0CECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113E56B3201AF54000D0CECD /* GuessTheIdiomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheIdiomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		113E56B7201AF54000D0CECD /* GuessTheIdiomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessTheIdiomUITests.m; sourceTree = "<group>"; };
+		113E56B9201AF54000D0CECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113E56CC201AF90300D0CECD /* 金币.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金币.jpeg"; sourceTree = "<group>"; };
+		113E56D2201B057E00D0CECD /* UpOrDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpOrDownButton.h; sourceTree = "<group>"; };
+		113E56D3201B057E00D0CECD /* UpOrDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpOrDownButton.m; sourceTree = "<group>"; };
+		113E5700201B0FC200D0CECD /* GuessTheIdiomModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessTheIdiomModel.h; sourceTree = "<group>"; };
+		113E5701201B0FC200D0CECD /* GuessTheIdiomModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessTheIdiomModel.m; sourceTree = "<group>"; };
+		113E5704201B112000D0CECD /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		113E5705201B112000D0CECD /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		113E5706201B112000D0CECD /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		113E5707201B112000D0CECD /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		113E5708201B112000D0CECD /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		113E5709201B112000D0CECD /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		113E570A201B112000D0CECD /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		113E570B201B112000D0CECD /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		113E570C201B112000D0CECD /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		113E570D201B112000D0CECD /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		113E570E201B112000D0CECD /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		113E570F201B112000D0CECD /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		113E5710201B112000D0CECD /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		113E5711201B112000D0CECD /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		113E5712201B112000D0CECD /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		113E5713201B112000D0CECD /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		113E5714201B112000D0CECD /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		113E5715201B112000D0CECD /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		113E5716201B112000D0CECD /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		113E5717201B112000D0CECD /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		11CE0C58201C1FB10071C268 /* 背景颜色.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景颜色.jpeg"; sourceTree = "<group>"; };
+		11CE0C5C201C20F70071C268 /* 大大图片.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大大图片.jpeg"; sourceTree = "<group>"; };
+		11CE0C5E201C22FD0071C268 /* 占位符1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "占位符1.jpeg"; sourceTree = "<group>"; };
+		11CE0C64201C242B0071C268 /* 占位符.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "占位符.jpeg"; sourceTree = "<group>"; };
+		11CE0C66201C261A0071C268 /* GuessTheIdiomModel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GuessTheIdiomModel.plist; sourceTree = "<group>"; };
+		11CE0C68201C35BB0071C268 /* 网开一面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "网开一面.jpg"; sourceTree = "<group>"; };
+		11CE0C69201C35BC0071C268 /* 滴水穿石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "滴水穿石.jpg"; sourceTree = "<group>"; };
+		11CE0C6A201C35BC0071C268 /* 面面俱到.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "面面俱到.jpg"; sourceTree = "<group>"; };
+		11CE0C6B201C35BC0071C268 /* 扬眉吐气.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "扬眉吐气.jpg"; sourceTree = "<group>"; };
+		11CE0C6C201C35BC0071C268 /* 官官相护.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "官官相护.jpg"; sourceTree = "<group>"; };
+		11CE0C6D201C35BC0071C268 /* 两手空空.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "两手空空.jpg"; sourceTree = "<group>"; };
+		11CE0C74201C35CB0071C268 /* 威风八面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "威风八面.jpg"; sourceTree = "<group>"; };
+		11CE0C75201C35CB0071C268 /* 积少成多.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "积少成多.jpg"; sourceTree = "<group>"; };
+		11CE0C76201C35CB0071C268 /* 死不瞑目.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "死不瞑目.jpg"; sourceTree = "<group>"; };
+		11CE0C77201C35CC0071C268 /* 旁门左道.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "旁门左道.jpg"; sourceTree = "<group>"; };
+		11CE0C78201C35CC0071C268 /* 捉襟见肘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "捉襟见肘.jpg"; sourceTree = "<group>"; };
+		11CE0C79201C35CC0071C268 /* 口是心非.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "口是心非.jpg"; sourceTree = "<group>"; };
+		11CE0C7A201C35CC0071C268 /* 无与伦比.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "无与伦比.jpg"; sourceTree = "<group>"; };
+		11CE0C7B201C35CC0071C268 /* 如虎添翼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "如虎添翼.jpg"; sourceTree = "<group>"; };
+		11CE0C7C201C35CC0071C268 /* 势如破竹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "势如破竹.jpg"; sourceTree = "<group>"; };
+		11CE0C7D201C35CC0071C268 /* 仗势欺人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "仗势欺人.jpg"; sourceTree = "<group>"; };
+		11CE0C7E201C35CC0071C268 /* 事半功倍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "事半功倍.jpg"; sourceTree = "<group>"; };
+		11CE0C7F201C35CD0071C268 /* 羊入虎口.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "羊入虎口.jpg"; sourceTree = "<group>"; };
+		11CE0C80201C35CD0071C268 /* 瓜熟蒂落.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "瓜熟蒂落.jpg"; sourceTree = "<group>"; };
+		11CE0C81201C35CD0071C268 /* 同床异梦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "同床异梦.jpg"; sourceTree = "<group>"; };
+		11CE0C90201C7DA70071C268 /* payMoneyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payMoneyViewController.h; sourceTree = "<group>"; };
+		11CE0C91201C7DA70071C268 /* payMoneyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payMoneyViewController.m; sourceTree = "<group>"; };
+		11CE0C92201C7DA70071C268 /* payMoneyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = payMoneyViewController.xib; sourceTree = "<group>"; };
+		11CE0C95201C7E4B0071C268 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		11CE0C96201C7E4B0071C268 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		11CE0C97201C7E4B0071C268 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113E568D201AF54000D0CECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113E56A5201AF54000D0CECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113E56B0201AF54000D0CECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113E5687201AF54000D0CECD = {
+			isa = PBXGroup;
+			children = (
+				113E5692201AF54000D0CECD /* GuessTheIdiom */,
+				113E56AB201AF54000D0CECD /* GuessTheIdiomTests */,
+				113E56B6201AF54000D0CECD /* GuessTheIdiomUITests */,
+				113E5691201AF54000D0CECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		113E5691201AF54000D0CECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113E5690201AF54000D0CECD /* GuessTheIdiom.app */,
+				113E56A8201AF54000D0CECD /* GuessTheIdiomTests.xctest */,
+				113E56B3201AF54000D0CECD /* GuessTheIdiomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113E5692201AF54000D0CECD /* GuessTheIdiom */ = {
+			isa = PBXGroup;
+			children = (
+				113E5693201AF54000D0CECD /* AppDelegate.h */,
+				113E5694201AF54000D0CECD /* AppDelegate.m */,
+				113E5696201AF54000D0CECD /* ViewController.h */,
+				113E5697201AF54000D0CECD /* ViewController.m */,
+				113E5699201AF54000D0CECD /* Main.storyboard */,
+				11CE0C90201C7DA70071C268 /* payMoneyViewController.h */,
+				11CE0C91201C7DA70071C268 /* payMoneyViewController.m */,
+				11CE0C92201C7DA70071C268 /* payMoneyViewController.xib */,
+				11CE0C95201C7E4B0071C268 /* CollectionViewCell.h */,
+				11CE0C96201C7E4B0071C268 /* CollectionViewCell.m */,
+				11CE0C97201C7E4B0071C268 /* CollectionViewCell.xib */,
+				113E56D2201B057E00D0CECD /* UpOrDownButton.h */,
+				113E56D3201B057E00D0CECD /* UpOrDownButton.m */,
+				113E5700201B0FC200D0CECD /* GuessTheIdiomModel.h */,
+				113E5701201B0FC200D0CECD /* GuessTheIdiomModel.m */,
+				113E56C5201AF72C00D0CECD /* Pic */,
+				113E5703201B112000D0CECD /* 成语图片 */,
+				113E569C201AF54000D0CECD /* Assets.xcassets */,
+				113E569E201AF54000D0CECD /* LaunchScreen.storyboard */,
+				113E56A1201AF54000D0CECD /* Info.plist */,
+				11CE0C66201C261A0071C268 /* GuessTheIdiomModel.plist */,
+				113E56A2201AF54000D0CECD /* main.m */,
+			);
+			path = GuessTheIdiom;
+			sourceTree = "<group>";
+		};
+		113E56AB201AF54000D0CECD /* GuessTheIdiomTests */ = {
+			isa = PBXGroup;
+			children = (
+				113E56AC201AF54000D0CECD /* GuessTheIdiomTests.m */,
+				113E56AE201AF54000D0CECD /* Info.plist */,
+			);
+			path = GuessTheIdiomTests;
+			sourceTree = "<group>";
+		};
+		113E56B6201AF54000D0CECD /* GuessTheIdiomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				113E56B7201AF54000D0CECD /* GuessTheIdiomUITests.m */,
+				113E56B9201AF54000D0CECD /* Info.plist */,
+			);
+			path = GuessTheIdiomUITests;
+			sourceTree = "<group>";
+		};
+		113E56C5201AF72C00D0CECD /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				113E56CC201AF90300D0CECD /* 金币.jpeg */,
+				11CE0C64201C242B0071C268 /* 占位符.jpeg */,
+				11CE0C5E201C22FD0071C268 /* 占位符1.jpeg */,
+				11CE0C5C201C20F70071C268 /* 大大图片.jpeg */,
+				11CE0C58201C1FB10071C268 /* 背景颜色.jpeg */,
+			);
+			path = Pic;
+			sourceTree = "<group>";
+		};
+		113E5703201B112000D0CECD /* 成语图片 */ = {
+			isa = PBXGroup;
+			children = (
+				11CE0C80201C35CD0071C268 /* 瓜熟蒂落.jpg */,
+				11CE0C75201C35CB0071C268 /* 积少成多.jpg */,
+				11CE0C79201C35CC0071C268 /* 口是心非.jpg */,
+				11CE0C77201C35CC0071C268 /* 旁门左道.jpg */,
+				11CE0C7B201C35CC0071C268 /* 如虎添翼.jpg */,
+				11CE0C7E201C35CC0071C268 /* 事半功倍.jpg */,
+				11CE0C7C201C35CC0071C268 /* 势如破竹.jpg */,
+				11CE0C76201C35CB0071C268 /* 死不瞑目.jpg */,
+				11CE0C81201C35CD0071C268 /* 同床异梦.jpg */,
+				11CE0C74201C35CB0071C268 /* 威风八面.jpg */,
+				11CE0C7A201C35CC0071C268 /* 无与伦比.jpg */,
+				11CE0C7F201C35CD0071C268 /* 羊入虎口.jpg */,
+				11CE0C7D201C35CC0071C268 /* 仗势欺人.jpg */,
+				11CE0C78201C35CC0071C268 /* 捉襟见肘.jpg */,
+				11CE0C69201C35BC0071C268 /* 滴水穿石.jpg */,
+				11CE0C6C201C35BC0071C268 /* 官官相护.jpg */,
+				11CE0C6D201C35BC0071C268 /* 两手空空.jpg */,
+				11CE0C6A201C35BC0071C268 /* 面面俱到.jpg */,
+				11CE0C68201C35BB0071C268 /* 网开一面.jpg */,
+				11CE0C6B201C35BC0071C268 /* 扬眉吐气.jpg */,
+				113E5704201B112000D0CECD /* 0.jpg */,
+				113E5705201B112000D0CECD /* 1.jpg */,
+				113E5706201B112000D0CECD /* 10.jpg */,
+				113E5707201B112000D0CECD /* 11.jpg */,
+				113E5708201B112000D0CECD /* 12.jpg */,
+				113E5709201B112000D0CECD /* 13.jpg */,
+				113E570A201B112000D0CECD /* 14.jpg */,
+				113E570B201B112000D0CECD /* 15.jpg */,
+				113E570C201B112000D0CECD /* 16.jpg */,
+				113E570D201B112000D0CECD /* 17.jpg */,
+				113E570E201B112000D0CECD /* 18.jpg */,
+				113E570F201B112000D0CECD /* 19.jpg */,
+				113E5710201B112000D0CECD /* 2.jpg */,
+				113E5711201B112000D0CECD /* 3.jpg */,
+				113E5712201B112000D0CECD /* 4.jpg */,
+				113E5713201B112000D0CECD /* 5.jpg */,
+				113E5714201B112000D0CECD /* 6.jpg */,
+				113E5715201B112000D0CECD /* 7.jpg */,
+				113E5716201B112000D0CECD /* 8.jpg */,
+				113E5717201B112000D0CECD /* 9.jpg */,
+			);
+			path = "成语图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		113E568F201AF54000D0CECD /* GuessTheIdiom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113E56BC201AF54000D0CECD /* Build configuration list for PBXNativeTarget "GuessTheIdiom" */;
+			buildPhases = (
+				113E568C201AF54000D0CECD /* Sources */,
+				113E568D201AF54000D0CECD /* Frameworks */,
+				113E568E201AF54000D0CECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessTheIdiom;
+			productName = GuessTheIdiom;
+			productReference = 113E5690201AF54000D0CECD /* GuessTheIdiom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		113E56A7201AF54000D0CECD /* GuessTheIdiomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113E56BF201AF54000D0CECD /* Build configuration list for PBXNativeTarget "GuessTheIdiomTests" */;
+			buildPhases = (
+				113E56A4201AF54000D0CECD /* Sources */,
+				113E56A5201AF54000D0CECD /* Frameworks */,
+				113E56A6201AF54000D0CECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113E56AA201AF54000D0CECD /* PBXTargetDependency */,
+			);
+			name = GuessTheIdiomTests;
+			productName = GuessTheIdiomTests;
+			productReference = 113E56A8201AF54000D0CECD /* GuessTheIdiomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		113E56B2201AF54000D0CECD /* GuessTheIdiomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113E56C2201AF54000D0CECD /* Build configuration list for PBXNativeTarget "GuessTheIdiomUITests" */;
+			buildPhases = (
+				113E56AF201AF54000D0CECD /* Sources */,
+				113E56B0201AF54000D0CECD /* Frameworks */,
+				113E56B1201AF54000D0CECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113E56B5201AF54000D0CECD /* PBXTargetDependency */,
+			);
+			name = GuessTheIdiomUITests;
+			productName = GuessTheIdiomUITests;
+			productReference = 113E56B3201AF54000D0CECD /* GuessTheIdiomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113E5688201AF54000D0CECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Soney_Yin;
+				TargetAttributes = {
+					113E568F201AF54000D0CECD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					113E56A7201AF54000D0CECD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 113E568F201AF54000D0CECD;
+					};
+					113E56B2201AF54000D0CECD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 113E568F201AF54000D0CECD;
+					};
+				};
+			};
+			buildConfigurationList = 113E568B201AF54000D0CECD /* Build configuration list for PBXProject "GuessTheIdiom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 113E5687201AF54000D0CECD;
+			productRefGroup = 113E5691201AF54000D0CECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113E568F201AF54000D0CECD /* GuessTheIdiom */,
+				113E56A7201AF54000D0CECD /* GuessTheIdiomTests */,
+				113E56B2201AF54000D0CECD /* GuessTheIdiomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		113E568E201AF54000D0CECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CE0C5F201C22FD0071C268 /* 占位符1.jpeg in Resources */,
+				113E5728201B112000D0CECD /* 6.jpg in Resources */,
+				113E571A201B112000D0CECD /* 10.jpg in Resources */,
+				113E5718201B112000D0CECD /* 0.jpg in Resources */,
+				113E572B201B112000D0CECD /* 9.jpg in Resources */,
+				11CE0C72201C35BC0071C268 /* 官官相护.jpg in Resources */,
+				11CE0C86201C35CD0071C268 /* 捉襟见肘.jpg in Resources */,
+				11CE0C6F201C35BC0071C268 /* 滴水穿石.jpg in Resources */,
+				113E5729201B112000D0CECD /* 7.jpg in Resources */,
+				11CE0C5D201C20F70071C268 /* 大大图片.jpeg in Resources */,
+				11CE0C71201C35BC0071C268 /* 扬眉吐气.jpg in Resources */,
+				11CE0C65201C242B0071C268 /* 占位符.jpeg in Resources */,
+				113E5722201B112000D0CECD /* 18.jpg in Resources */,
+				113E5721201B112000D0CECD /* 17.jpg in Resources */,
+				11CE0C99201C7E4B0071C268 /* CollectionViewCell.xib in Resources */,
+				11CE0C84201C35CD0071C268 /* 死不瞑目.jpg in Resources */,
+				11CE0C8B201C35CD0071C268 /* 仗势欺人.jpg in Resources */,
+				113E5727201B112000D0CECD /* 5.jpg in Resources */,
+				113E571C201B112000D0CECD /* 12.jpg in Resources */,
+				113E571B201B112000D0CECD /* 11.jpg in Resources */,
+				11CE0C82201C35CD0071C268 /* 威风八面.jpg in Resources */,
+				113E5723201B112000D0CECD /* 19.jpg in Resources */,
+				113E56A0201AF54000D0CECD /* LaunchScreen.storyboard in Resources */,
+				113E571E201B112000D0CECD /* 14.jpg in Resources */,
+				113E56CD201AF90300D0CECD /* 金币.jpeg in Resources */,
+				11CE0C94201C7DA70071C268 /* payMoneyViewController.xib in Resources */,
+				113E5726201B112000D0CECD /* 4.jpg in Resources */,
+				11CE0C8D201C35CD0071C268 /* 羊入虎口.jpg in Resources */,
+				113E572A201B112000D0CECD /* 8.jpg in Resources */,
+				11CE0C8C201C35CD0071C268 /* 事半功倍.jpg in Resources */,
+				11CE0C83201C35CD0071C268 /* 积少成多.jpg in Resources */,
+				113E571D201B112000D0CECD /* 13.jpg in Resources */,
+				11CE0C87201C35CD0071C268 /* 口是心非.jpg in Resources */,
+				11CE0C88201C35CD0071C268 /* 无与伦比.jpg in Resources */,
+				11CE0C89201C35CD0071C268 /* 如虎添翼.jpg in Resources */,
+				11CE0C73201C35BC0071C268 /* 两手空空.jpg in Resources */,
+				11CE0C8F201C35CD0071C268 /* 同床异梦.jpg in Resources */,
+				113E5725201B112000D0CECD /* 3.jpg in Resources */,
+				11CE0C70201C35BC0071C268 /* 面面俱到.jpg in Resources */,
+				113E569D201AF54000D0CECD /* Assets.xcassets in Resources */,
+				11CE0C8A201C35CD0071C268 /* 势如破竹.jpg in Resources */,
+				113E5719201B112000D0CECD /* 1.jpg in Resources */,
+				113E569B201AF54000D0CECD /* Main.storyboard in Resources */,
+				113E5720201B112000D0CECD /* 16.jpg in Resources */,
+				11CE0C6E201C35BC0071C268 /* 网开一面.jpg in Resources */,
+				11CE0C59201C1FB10071C268 /* 背景颜色.jpeg in Resources */,
+				11CE0C67201C261A0071C268 /* GuessTheIdiomModel.plist in Resources */,
+				11CE0C85201C35CD0071C268 /* 旁门左道.jpg in Resources */,
+				11CE0C8E201C35CD0071C268 /* 瓜熟蒂落.jpg in Resources */,
+				113E5724201B112000D0CECD /* 2.jpg in Resources */,
+				113E571F201B112000D0CECD /* 15.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113E56A6201AF54000D0CECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113E56B1201AF54000D0CECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113E568C201AF54000D0CECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113E5698201AF54000D0CECD /* ViewController.m in Sources */,
+				113E56D4201B057E00D0CECD /* UpOrDownButton.m in Sources */,
+				113E5702201B0FC200D0CECD /* GuessTheIdiomModel.m in Sources */,
+				113E56A3201AF54000D0CECD /* main.m in Sources */,
+				11CE0C93201C7DA70071C268 /* payMoneyViewController.m in Sources */,
+				11CE0C98201C7E4B0071C268 /* CollectionViewCell.m in Sources */,
+				113E5695201AF54000D0CECD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113E56A4201AF54000D0CECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113E56AD201AF54000D0CECD /* GuessTheIdiomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113E56AF201AF54000D0CECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113E56B8201AF54000D0CECD /* GuessTheIdiomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		113E56AA201AF54000D0CECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113E568F201AF54000D0CECD /* GuessTheIdiom */;
+			targetProxy = 113E56A9201AF54000D0CECD /* PBXContainerItemProxy */;
+		};
+		113E56B5201AF54000D0CECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113E568F201AF54000D0CECD /* GuessTheIdiom */;
+			targetProxy = 113E56B4201AF54000D0CECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		113E5699201AF54000D0CECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E569A201AF54000D0CECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		113E569E201AF54000D0CECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E569F201AF54000D0CECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		113E56BA201AF54000D0CECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		113E56BB201AF54000D0CECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113E56BD201AF54000D0CECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y232W2PWG;
+				INFOPLIST_FILE = GuessTheIdiom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YSW.GuessTheIdiom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		113E56BE201AF54000D0CECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y232W2PWG;
+				INFOPLIST_FILE = GuessTheIdiom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YSW.GuessTheIdiom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		113E56C0201AF54000D0CECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y232W2PWG;
+				INFOPLIST_FILE = GuessTheIdiomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YSW.GuessTheIdiomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheIdiom.app/GuessTheIdiom";
+			};
+			name = Debug;
+		};
+		113E56C1201AF54000D0CECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y232W2PWG;
+				INFOPLIST_FILE = GuessTheIdiomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YSW.GuessTheIdiomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheIdiom.app/GuessTheIdiom";
+			};
+			name = Release;
+		};
+		113E56C3201AF54000D0CECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y232W2PWG;
+				INFOPLIST_FILE = GuessTheIdiomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YSW.GuessTheIdiomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessTheIdiom;
+			};
+			name = Debug;
+		};
+		113E56C4201AF54000D0CECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y232W2PWG;
+				INFOPLIST_FILE = GuessTheIdiomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YSW.GuessTheIdiomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessTheIdiom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113E568B201AF54000D0CECD /* Build configuration list for PBXProject "GuessTheIdiom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113E56BA201AF54000D0CECD /* Debug */,
+				113E56BB201AF54000D0CECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113E56BC201AF54000D0CECD /* Build configuration list for PBXNativeTarget "GuessTheIdiom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113E56BD201AF54000D0CECD /* Debug */,
+				113E56BE201AF54000D0CECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113E56BF201AF54000D0CECD /* Build configuration list for PBXNativeTarget "GuessTheIdiomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113E56C0201AF54000D0CECD /* Debug */,
+				113E56C1201AF54000D0CECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113E56C2201AF54000D0CECD /* Build configuration list for PBXNativeTarget "GuessTheIdiomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113E56C3201AF54000D0CECD /* Debug */,
+				113E56C4201AF54000D0CECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 113E5688201AF54000D0CECD /* Project object */;
+}
